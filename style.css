@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;    
+}
+.navbar{
+    height: 16px;
+}
+.navbar ul{
+    position: absolute;
+    display: flex;
+    left : 43em;
+    top: -2px;
+}
+.navbar li{
+    margin: 0px 10px 0px 7px;
+   
+}
+.navbar a{
+    font-size: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(0,113,133);
+    font-family: Arial, sans-serif;
+    border: black 1px solid;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    margin: 0px -8px 0px -4px;
+    padding: 0px 20px 0px 8px;
+}
+
+.profile{
+height: 126px;
+/* border: 1px solid black; */
+background-color: rgb(255,255,255);
+}
+
+.navbar2{
+    position: relative;
+    display: inline-flex;
+    left: 9em;
+    top: 45px;
+    /* border: black 1px solid; */
+}
+.navbar2 ul{
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 20px;
+}
+.navbar2 li{
+    margin: 0px 10px 0px 10px;
+}
+.navbar2 ul li a{
+    font-size: 16px;
+    font-family: Arial ;
+    border: black 1px solid;
+    margin: 0px 10px 0px -4px;
+    text-decoration: none;
+    color: rgb(0,113,133);
+    padding: 0px 30px 0px 0px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.p2{
+    position: absolute;
+    left: 140px;
+    top: 170px;
+}
+.bod h1{
+    font-size: 42px;
+    font-family: Arial, clean, sans-serif;
+    font-weight: lighter;
+    margin: 0px 0px 10px 0px;
+}
+.bod h4{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+    margin: 0px 0px 8px 0px;
+}
+.container{
+    height: 170px;
+    width: 60em;
+    background-color: white;
+    padding: 20px 5px 5px 30px;
+}
+.container h5{
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 800;
+    color: brown;
+}
+.container h4{
+    position: absolute;
+    top: 104px;
+    left: 110px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
+.container p{
+    margin: 20px 0px 27px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial;
+}
+.container span{
+    margin: 0px 0px 0px 0px;
+}
+.container span a{
+   font-weight: 800;
+   font-size: 14px;
+   font-family: Arial,sans-serif;
+   text-decoration: none;
+   color: black;
+}
+.container ul{
+    position: absolute;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+.container li{
+    margin: 0px 2px 0px 4px;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    border: 1px solid black;
+    padding: 0px 7px 0px 0px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    color: rgb(0, 119, 139);
+}
+
+.crt-btn{
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    right: 35px;
+    top: 130px;
+    border-radius: 9px;
+    background-color: rgb(255, 228, 20);
+    padding: 15px 0px 0px 50px;
+    cursor: pointer;
+}
+
+.crt-btn a{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   text-decoration: none;
+   color: black;
+}
+.bod2 {
+    margin: 25px 0px 25px 0px;
+    display: flex;
+}
+.bod2 h5{
+    margin: 0px 10px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Arial, sans-serif;
+}
+.bod2 input{
+    position: relative;
+   left: 648px;
+   font-size: 25px;
+   width: 150px;
+   border-radius: 5px;
+   border: 1px rgba(0, 0, 0, 0.466) solid;
+}
+.bod2 input::placeholder{
+    font-size: 15px;
+    left: 30px;
+    position: relative;
+    top: -4px;
+}
+.title-btn{
+    height: 33px;
+    width: 80px;
+    background-color: black;
+    border-radius: 20px;
+    left: 57em;
+    top: 19.1em;
+    position: absolute;
+}
+.title-btn a{
+    padding: 8px 0px 0px 16px ;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.p3{
+    position: relative;
+    top: 26em;
+    left: 8.5em;
+    background-color: white;
+    width: 63em;
+   height: 29em;      /* bodyheight */
+}
+.begin img{
+    padding: 70px 0px 0px 25px;
+    top: 20px;
+    position: relative;
+}
+.begin h3{
+    display: inline;
+    top:100px;
+    left: 140px;
+    position: absolute;
+    font-family: Arial;
+    font-size: 18px;
+    word-spacing: 3px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.begin h4{
+display: inline;
+position: absolute;
+top: 140px;
+left: 140px;
+font-family: Arial;
+line-height: 2.7em;
+}
+.begin p{
+display: inline;
+font-family: Arial;
+top: 180px;
+left: 140px;
+font-weight: 500;
+font-size: 14px;
+position: absolute;
+}
+
+/* today */
+.new{
+position: absolute;
+display: flex;
+right: 6em;
+top: 30px;
+height: 19em;
+border: 0.5px solid rgba(0, 0, 0, 0.216);
+border-top: none;
+border-right: none;
+border-bottom: none;
+}
+
+.new p{
+    margin: -1px 15px 0px 25px;
+    font-size: 13px;
+    line-height: 1.7em;
+    font-family: arial;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.567);
+    left: 5px;
+    position: relative;
+}
+.new .op a{
+    text-decoration: none;
+    color: rgb(11, 99, 3);
+    font-weight: 700;
+}
+.new .op2 a{
+    text-decoration: none;
+    color: rgba(5, 75, 102, 0.646);
+}
+.new .op3 #one{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.375);
+    padding: 5px 15px 5px 12px;
+    text-align: center;
+    width: 160px;
+    top: 25px;
+    right: -45px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.775);
+}
+.new .op3 #two{
+    position: absolute;
+    right: -80px;
+    top: 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid  rgba(0, 0, 0, 0.375);
+    padding: 3px 6px 3px 6px;
+}
+
+.part{
+position: absolute;
+display: flex;
+right: 1em;
+top: 110px;
+border: 1px solid rgba(0, 0, 0, 0.216);
+width: 42em;
+border-left: none;
+border-right: none;
+}
+.part p{
+    font-size: 13px;
+    line-height: 1.7em;
+    font-family: arial;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.567);
+    position: relative;
+    left: 15px;
+    margin: 20px 25px 20px 15px;
+}
+.part .to a{
+    text-decoration: none;
+    color: rgb(11, 99, 3);
+    font-weight: 700;
+}
+.part .to2 a{
+    text-decoration: none;
+    color: rgba(5, 75, 102, 0.646);
+}
+.part .to3 #three{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.375);
+    padding: 5px 15px 5px 12px;
+    text-align: center;
+    width: 160px;
+    top: 25px;
+    right: -62px; 
+    border-radius: 10px;
+    position: absolute;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.775);
+}
+.part .to3 #four{
+    position: absolute;
+    right: -96px;
+    top: 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid  rgba(0, 0, 0, 0.375);
+    padding: 3px 6px 3px 6px;
+}
+.old{
+ position: absolute;
+ left: 21em;
+ top: 250px;
+ width: 44em;
+ display: flex;
+
+}
+.old a{
+    margin: 0px 20px 0px 10px;
+
+}
+.old #five{
+ border: 1px dotted rgba(0, 0, 0, 0.342);
+ text-decoration: none;
+ padding: 10px 80px 10px 80px;
+ border-radius: 10px;
+ color: rgb(15, 104, 167);
+}
+.old #six{
+ border: 1px dotted rgba(0, 0, 0, 0.342);
+ text-decoration: none;
+ padding: 10px 60px 10px 60px;
+ border-radius: 10px;
+ color: rgb(15, 104, 167);
+}
+.boo {
+    position: relative;
+    top: 4em;
+    border: none;
+   left: 22em;
+    width: 200px;
+    
+}
+.boo #print{
+border: none;
+padding-right: 10px;
+color:  rgb(15, 104, 167);
+font-family: Arial;
+font-size: 15px;
+text-decoration: none;
+}
+
+.boo #space{
+    
+    
+    
+    color: rgb(15, 104, 167);
+}

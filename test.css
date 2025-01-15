@@ -1,0 +1,9 @@
+.test #po{
+    border: none !important;
+    font-size: 20px;
+    padding-right: 10px;
+    
+}
+.test #po :hover{
+    border: none;
+}
